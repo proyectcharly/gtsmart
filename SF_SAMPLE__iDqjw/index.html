@@ -61,7 +61,7 @@
     </div>
 </header>
 
-<section class="header-23-sub bg-midnight-blue">
+<section class="header-23-sub  bg-midnight-blue">
     <div id="bgVideo" class="background">&nbsp;</div>
     <div class="container">
         <div class="row">
@@ -125,7 +125,7 @@
 
 
 <!--redes-->
-<section class="content-23 first bg-midnight-blue custom-bg ">
+<section class="content-23 custom-bg first bg-midnight-blue custom-bg ">
 	<div class="holder v-center">
 		<div>
 		    <div class="container">
@@ -183,7 +183,7 @@
 </section>
 
 <!--aqui empieza seccion seguridad-->
-<section class="content-23 second bg-midnight-1">
+<section class="content-23 custom-bg second bg-midnight-1">
 	<div class="holder v-center">
 		<div>
 		    <div class="container">
@@ -235,7 +235,7 @@
 
 
 <!--aqui empieza seccion comunicación-->
-<section class="content-23 three bg-midnight-1">
+<section class="content-23 custom-bg three bg-midnight-1">
     <div class="holder v-center">
         <div>
             <div class="container">
@@ -289,7 +289,7 @@ Los adelantos de las comunicaciones móviles son un factor clave a la hora de am
 <!--A>qui termiba la seccion -->
 
 <!--aqui empieza seccion data center-->
-<section class="content-23 four bg-midnight-1">
+<section class="content-23 custom-bg four bg-midnight-1">
     <div class="holder v-center">
         <div>
             <div class="container">
@@ -344,7 +344,7 @@ Los adelantos de las comunicaciones móviles son un factor clave a la hora de am
 <!--A>qui termiba la seccion -->
 
 <!--aqui empieza seccion Infraestructura-->
-<section class="content-23 five bg-midnight-1">
+<section class="content-23 custom-bg five bg-midnight-1">
     <div class="holder v-center">
         <div>
             <div class="container">
@@ -587,11 +587,12 @@ Los adelantos de las comunicaciones móviles son un factor clave a la hora de am
             <script src="startup/common-files/js/froogaloop.min.js"></script>
             <script src="startup/common-files/js/startup-kit.js"></script>
             <script>
-            (function($) {
-                $(".content-23").each(function() {
-                $(this).parallax("50%",0.3, true);
-                })
-            }(jquery));
+            $('.header-10-sub, .content-23.custom-bg').each(function() {
+            if(! isMobile.any())
+            $(this).parallax('50%', 0.3, true);
+            else
+            $(this).css('background-attachment', 'initial');
+        });
             </script>
            
         </div>

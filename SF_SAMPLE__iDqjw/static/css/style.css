@@ -1078,50 +1078,62 @@ margin-left: 36px !important;
 
 .content-23.first {
   background: url("../../startup/common-files/img/content-large/2.jpg") no-repeat #1b1f23;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  
 }
 
 .content-23.second{
   background: url("../../startup/common-files/img/content-large/1.jpg") no-repeat #1b1f23;
+background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .content-23.three{
   background: url("../../startup/common-files/img/content-large/3.jpg") no-repeat #1b1f23;
+background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .content-23.four{
   background: url("../../startup/common-files/img/content-large/7.jpg") no-repeat #1b1f23;
+background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .content-23.five{
   background: url("../../startup/common-files/img/content-large/4.jpg") no-repeat #1b1f23;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;;
 }
 .content-23 {
  position: relative;
+ background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  color: white;
 }
 
 
