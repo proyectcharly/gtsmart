@@ -590,7 +590,7 @@ startupKit.uiKitHeader.header23 = function() {
     $('body').prepend($('.mask, .popup-video').not('pre .mask, pre .popup-video'));
     $('header-23 .mask, header-23 .popup-video').not('pre .mask, pre .popup-video').detach();
 
-    var iframe = $('#pPlayer')[0];
+    var iframe = $('#Player')[0];
     var player = $f(iframe);
     player.addEvent('ready', function() {});
 

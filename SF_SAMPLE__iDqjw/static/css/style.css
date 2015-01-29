@@ -1070,12 +1070,12 @@ margin-left: 36px !important;
   font-weight: normal;
   color: #fff;
   line-height: 44px;
-  background-color: #222C7F;
+  background-color: #022751;
   font-weight: 300;
 }
 
 .bottomtext .lead{
-  font-size: 47px;
+  font-size: 26px;
   font-weight: normal;
   color: #fff;
 }
@@ -1352,7 +1352,7 @@ border-radius: 5px 5px 5px 5px;
   }
 }
 .content-3 .img {
-  max-width: 380px;
+  max-width: 426px;
   margin-left: auto;
 }
 .content-3 .img img {
@@ -2636,6 +2636,10 @@ section * {
   height: 550px;
   min-height: 300px;
 }
+
+.nopuntero{pointer-events:none;}
+
+
 @media (max-width: 1200px) {
   .footer-9-map {
     height: 300px;
